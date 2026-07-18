@@ -9,27 +9,27 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
     "versions": [
       {
-        "version": "1.0.4.0",
-        "changelog": "Fix commands going stale after phone sleep (socket watchdog + wake refresh). Remote actions count as activity for the 12.0 still-watching prompt (via JavaScript Injector, optional).",
+        "version": "1.0.5.0",
+        "changelog": "Sleep-timeout fix; still-watching activity integration; playing sessions listed even when the remote-control flag is lost after a server restart.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.4.0/jfremote_1.0.4.0_jf12.zip",
-        "checksum": "f8437392877cf4711ffa9b1dadd4b660",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.5.0/jfremote_1.0.5.0_jf12.zip",
+        "checksum": "c8bf74cdb119ea55503aa689e11b23c3",
         "timestamp": "2026-07-18T22:30:00Z"
       },
       {
-        "version": "1.0.4.0",
-        "changelog": "Fix commands going stale after phone sleep (socket watchdog + wake refresh).",
+        "version": "1.0.5.0",
+        "changelog": "Sleep-timeout fix; playing sessions listed even when the remote-control flag is lost after a server restart.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.4.0/jfremote_1.0.4.0_jf1011.zip",
-        "checksum": "a686b28b3213398e36815d2bb981da6a",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.5.0/jfremote_1.0.5.0_jf1011.zip",
+        "checksum": "28d1e45a0e0165fa4cb3abcada948549",
         "timestamp": "2026-07-18T22:30:00Z"
       },
       {
-        "version": "1.0.4.0",
-        "changelog": "Fix commands going stale after phone sleep (socket watchdog + wake refresh).",
+        "version": "1.0.5.0",
+        "changelog": "Sleep-timeout fix; playing sessions listed even when the remote-control flag is lost after a server restart.",
         "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.4.0/jfremote_1.0.4.0_jf1010.zip",
-        "checksum": "0fdd821c32ff15bb2e9eeda1c9e90831",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.5.0/jfremote_1.0.5.0_jf1010.zip",
+        "checksum": "735ba49f89c030f8430892d80733938c",
         "timestamp": "2026-07-18T22:30:00Z"
       }
     ]
