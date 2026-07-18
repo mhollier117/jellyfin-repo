@@ -9,27 +9,27 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
     "versions": [
       {
-        "version": "1.0.6.0",
-        "changelog": "Watch-along sync engine rebuilt: no repeated resyncing, follows autoplay to the next episode. Session picker remembers your device and never retargets mid-watch. Socket, volume and logout fixes. Includes the sleep-timeout fix, still-watching integration and restart session-listing fix.",
+        "version": "1.0.7.0",
+        "changelog": "Watch-along sync engine rebuilt (no repeated resyncing; follows autoplay). Update check on app resume; pause commands verified to reach the player; auto-pick prefers unpaused streams; device memory; socket, volume and logout fixes. Includes still-watching integration.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.6.0/jfremote_1.0.6.0_jf12.zip",
-        "checksum": "7ea07941ca14a34e4696dd0395b72a60",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.7.0/jfremote_1.0.7.0_jf12.zip",
+        "checksum": "14e26fe5750f8b66b7a00d38c114ee89",
         "timestamp": "2026-07-18T22:30:00Z"
       },
       {
-        "version": "1.0.6.0",
-        "changelog": "Watch-along sync engine rebuilt: no repeated resyncing, follows autoplay to the next episode. Session picker remembers your device and never retargets mid-watch. Socket, volume and logout fixes. Includes the sleep-timeout and restart session-listing fixes.",
+        "version": "1.0.7.0",
+        "changelog": "Watch-along sync engine rebuilt (no repeated resyncing; follows autoplay). Update check on app resume; pause commands verified to reach the player; auto-pick prefers unpaused streams; device memory; socket, volume and logout fixes.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.6.0/jfremote_1.0.6.0_jf1011.zip",
-        "checksum": "1e61562c634ada80138c15625e00a43d",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.7.0/jfremote_1.0.7.0_jf1011.zip",
+        "checksum": "42485c464cb59153888eecd727929be9",
         "timestamp": "2026-07-18T22:30:00Z"
       },
       {
-        "version": "1.0.6.0",
-        "changelog": "Watch-along sync engine rebuilt: no repeated resyncing, follows autoplay to the next episode. Session picker remembers your device and never retargets mid-watch. Socket, volume and logout fixes. Includes the sleep-timeout and restart session-listing fixes.",
+        "version": "1.0.7.0",
+        "changelog": "Watch-along sync engine rebuilt (no repeated resyncing; follows autoplay). Update check on app resume; pause commands verified to reach the player; auto-pick prefers unpaused streams; device memory; socket, volume and logout fixes.",
         "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.6.0/jfremote_1.0.6.0_jf1010.zip",
-        "checksum": "b408f989a71178bf23cdf403436867a0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.7.0/jfremote_1.0.7.0_jf1010.zip",
+        "checksum": "965f243a81f8ebfd4204fce94d2f67d6",
         "timestamp": "2026-07-18T22:30:00Z"
       }
     ]
