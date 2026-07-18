@@ -9,27 +9,27 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
     "versions": [
       {
-        "version": "1.0.2.0",
-        "changelog": "Watch-along: event-driven resync; steady-state playback never touched.",
+        "version": "1.0.3.0",
+        "changelog": "Fix watch-along stall-detector seek loop; remove redundant now-playing poster.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.2.0/jfremote_1.0.2.0_jf12.zip",
-        "checksum": "3076c81cf267fa449e157d96e737aa77",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.3.0/jfremote_1.0.3.0_jf12.zip",
+        "checksum": "f01d40597f037839dcf39d16a9b9182f",
         "timestamp": "2026-07-18T18:30:00Z"
       },
       {
-        "version": "1.0.2.0",
-        "changelog": "Watch-along: event-driven resync; steady-state playback never touched.",
+        "version": "1.0.3.0",
+        "changelog": "Fix watch-along stall-detector seek loop; remove redundant now-playing poster.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.2.0/jfremote_1.0.2.0_jf1011.zip",
-        "checksum": "782edb9fe270ac8e45e1b40551c61998",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.3.0/jfremote_1.0.3.0_jf1011.zip",
+        "checksum": "c0abdc18985d10da5f3c6b57b2a73aee",
         "timestamp": "2026-07-18T18:30:00Z"
       },
       {
-        "version": "1.0.2.0",
-        "changelog": "Watch-along: event-driven resync; steady-state playback never touched.",
+        "version": "1.0.3.0",
+        "changelog": "Fix watch-along stall-detector seek loop; remove redundant now-playing poster.",
         "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.2.0/jfremote_1.0.2.0_jf1010.zip",
-        "checksum": "66b06d8f820a5bb2cfe55d1a1ed3a44c",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.3.0/jfremote_1.0.3.0_jf1010.zip",
+        "checksum": "be3efcdc0bdd8aada91315fb8267e8e3",
         "timestamp": "2026-07-18T20:30:00Z"
       }
     ]
