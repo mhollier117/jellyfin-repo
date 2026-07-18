@@ -9,20 +9,47 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
     "versions": [
       {
-        "version": "1.0.0.0",
-        "changelog": "Initial release",
+        "version": "1.0.2.0",
+        "changelog": "Watch-along: event-driven resync; steady-state playback never touched.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.0.0/jfremote_1.0.0.0_jf12.zip",
-        "checksum": "d9e28a1be7293d8fc35da2243d735a1b",
-        "timestamp": "2026-07-18T15:30:00Z"
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.2.0/jfremote_1.0.2.0_jf12.zip",
+        "checksum": "3076c81cf267fa449e157d96e737aa77",
+        "timestamp": "2026-07-18T18:30:00Z"
       },
       {
-        "version": "1.0.0.0",
-        "changelog": "Initial release",
+        "version": "1.0.2.0",
+        "changelog": "Watch-along: event-driven resync; steady-state playback never touched.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.0.0/jfremote_1.0.0.0_jf1011.zip",
-        "checksum": "dad578762ec36fcf8bca70d49a35dd9d",
-        "timestamp": "2026-07-18T15:30:00Z"
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.2.0/jfremote_1.0.2.0_jf1011.zip",
+        "checksum": "782edb9fe270ac8e45e1b40551c61998",
+        "timestamp": "2026-07-18T18:30:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "852f9e20-b11f-47bd-898a-ef38c2dad83c",
+    "name": "Filler Skip",
+    "description": "On-screen skip-filler button (web) plus per-user opt-in auto-skip on autoplay (all remote-controllable clients). AnimeFillerList-driven; matches Anime Filler Marker renames when present.",
+    "overview": "Skip anime filler to the next canon episode",
+    "owner": "mhollier117",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-fillerskip/main/logo.png",
+    "versions": [
+      {
+        "version": "1.1.0.0",
+        "changelog": "Skip button + per-user auto-skip mode with Settings > Playback opt-in.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.0.0/fillerskip_1.1.0.0_jf12.zip",
+        "checksum": "24f98449e01939ea4ace63dd7b1d1efd",
+        "timestamp": "2026-07-18T18:30:00Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Skip button + per-user auto-skip mode with Settings > Playback opt-in.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.0.0/fillerskip_1.1.0.0_jf1011.zip",
+        "checksum": "a4e6de4f366bb1d2b20b3267daabf1de",
+        "timestamp": "2026-07-18T18:30:00Z"
       }
     ]
   }
