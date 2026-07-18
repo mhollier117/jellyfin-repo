@@ -44,20 +44,28 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-fillerskip/main/logo.png",
     "versions": [
       {
-        "version": "1.1.1.0",
-        "changelog": "Per-user settings section: native styling before the Advanced section; adds a per-user web-button visibility toggle.",
+        "version": "1.1.2.0",
+        "changelog": "Per-user mixed canon/filler policy; native settings section before Advanced; per-user web-button toggle.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.1.0/fillerskip_1.1.1.0_jf12.zip",
-        "checksum": "51e131649c67c7d3cc0ccd9b3f9687eb",
-        "timestamp": "2026-07-18T20:00:00Z"
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.2.0/fillerskip_1.1.2.0_jf12.zip",
+        "checksum": "d0372f75e82705c83917618299653334",
+        "timestamp": "2026-07-18T21:00:00Z"
       },
       {
-        "version": "1.1.1.0",
-        "changelog": "Per-user settings section: native styling before the Advanced section; adds a per-user web-button visibility toggle.",
+        "version": "1.1.2.0",
+        "changelog": "Per-user mixed canon/filler policy; native settings section before Advanced; per-user web-button toggle.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.1.0/fillerskip_1.1.1.0_jf1011.zip",
-        "checksum": "d43cc6ef0b03b1b0613fb0f9f708c1a0",
-        "timestamp": "2026-07-18T20:00:00Z"
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.2.0/fillerskip_1.1.2.0_jf1011.zip",
+        "checksum": "1ea5b21da0a4cc903171b565638ac2c0",
+        "timestamp": "2026-07-18T21:00:00Z"
+      },
+      {
+        "version": "1.1.2.0",
+        "changelog": "Per-user mixed canon/filler policy; native settings section before Advanced; per-user web-button toggle.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.2.0/fillerskip_1.1.2.0_jf1010.zip",
+        "checksum": "10bd0e1c7215faa8ba67fda97712fabe",
+        "timestamp": "2026-07-18T21:00:00Z"
       }
     ]
   }
