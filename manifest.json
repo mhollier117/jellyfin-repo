@@ -9,27 +9,27 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
     "versions": [
       {
-        "version": "1.0.8.0",
-        "changelog": "Watch-along sync engine rebuilt; dropped pause commands auto-retried; update check on app resume; verified command delivery; session picker and socket hardening.",
+        "version": "1.0.9.0",
+        "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.8.0/jfremote_1.0.8.0_jf12.zip",
-        "checksum": "586ab84d94c6fabb79e8bcd7e471f4a4",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.9.0/jfremote_1.0.9.0_jf12.zip",
+        "checksum": "ac18806a41c6c9d43064c1be1788cf4d",
         "timestamp": "2026-07-18T22:30:00Z"
       },
       {
-        "version": "1.0.8.0",
-        "changelog": "Watch-along sync engine rebuilt; dropped pause commands auto-retried; update check on app resume; verified command delivery; session picker and socket hardening.",
+        "version": "1.0.9.0",
+        "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.8.0/jfremote_1.0.8.0_jf1011.zip",
-        "checksum": "9edfac4f63f0ceffe76d69703ec7a40c",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.9.0/jfremote_1.0.9.0_jf1011.zip",
+        "checksum": "f91b044e69d4778aa685fe0dabca4f9d",
         "timestamp": "2026-07-18T22:30:00Z"
       },
       {
-        "version": "1.0.8.0",
-        "changelog": "Watch-along sync engine rebuilt; dropped pause commands auto-retried; update check on app resume; verified command delivery; session picker and socket hardening.",
+        "version": "1.0.9.0",
+        "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
         "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.8.0/jfremote_1.0.8.0_jf1010.zip",
-        "checksum": "229b260215ff408a3a6fc548ca1fd8c1",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.9.0/jfremote_1.0.9.0_jf1010.zip",
+        "checksum": "9318901d246162099e743dbb85d4d649",
         "timestamp": "2026-07-18T22:30:00Z"
       }
     ]
