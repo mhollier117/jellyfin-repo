@@ -9,27 +9,27 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
     "versions": [
       {
-        "version": "1.0.7.0",
-        "changelog": "Watch-along sync engine rebuilt (no repeated resyncing; follows autoplay). Update check on app resume; pause commands verified to reach the player; auto-pick prefers unpaused streams; device memory; socket, volume and logout fixes. Includes still-watching integration.",
+        "version": "1.0.8.0",
+        "changelog": "Watch-along sync engine rebuilt; dropped pause commands auto-retried; update check on app resume; verified command delivery; session picker and socket hardening.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.7.0/jfremote_1.0.7.0_jf12.zip",
-        "checksum": "14e26fe5750f8b66b7a00d38c114ee89",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.8.0/jfremote_1.0.8.0_jf12.zip",
+        "checksum": "586ab84d94c6fabb79e8bcd7e471f4a4",
         "timestamp": "2026-07-18T22:30:00Z"
       },
       {
-        "version": "1.0.7.0",
-        "changelog": "Watch-along sync engine rebuilt (no repeated resyncing; follows autoplay). Update check on app resume; pause commands verified to reach the player; auto-pick prefers unpaused streams; device memory; socket, volume and logout fixes.",
+        "version": "1.0.8.0",
+        "changelog": "Watch-along sync engine rebuilt; dropped pause commands auto-retried; update check on app resume; verified command delivery; session picker and socket hardening.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.7.0/jfremote_1.0.7.0_jf1011.zip",
-        "checksum": "42485c464cb59153888eecd727929be9",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.8.0/jfremote_1.0.8.0_jf1011.zip",
+        "checksum": "9edfac4f63f0ceffe76d69703ec7a40c",
         "timestamp": "2026-07-18T22:30:00Z"
       },
       {
-        "version": "1.0.7.0",
-        "changelog": "Watch-along sync engine rebuilt (no repeated resyncing; follows autoplay). Update check on app resume; pause commands verified to reach the player; auto-pick prefers unpaused streams; device memory; socket, volume and logout fixes.",
+        "version": "1.0.8.0",
+        "changelog": "Watch-along sync engine rebuilt; dropped pause commands auto-retried; update check on app resume; verified command delivery; session picker and socket hardening.",
         "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.7.0/jfremote_1.0.7.0_jf1010.zip",
-        "checksum": "965f243a81f8ebfd4204fce94d2f67d6",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.8.0/jfremote_1.0.8.0_jf1010.zip",
+        "checksum": "229b260215ff408a3a6fc548ca1fd8c1",
         "timestamp": "2026-07-18T22:30:00Z"
       }
     ]
@@ -44,27 +44,27 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-fillerskip/main/logo.png",
     "versions": [
       {
-        "version": "1.1.2.0",
-        "changelog": "Per-user mixed canon/filler policy; native settings section before Advanced; per-user web-button toggle.",
+        "version": "1.1.3.0",
+        "changelog": "Skip button verifies the jump landed and retries dropped commands. Per-user mixed policy and settings section.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.2.0/fillerskip_1.1.2.0_jf12.zip",
-        "checksum": "d0372f75e82705c83917618299653334",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.3.0/fillerskip_1.1.3.0_jf12.zip",
+        "checksum": "501d17d91affd8dca2d9b6fdbcc38ce0",
         "timestamp": "2026-07-18T21:00:00Z"
       },
       {
-        "version": "1.1.2.0",
-        "changelog": "Per-user mixed canon/filler policy; native settings section before Advanced; per-user web-button toggle.",
+        "version": "1.1.3.0",
+        "changelog": "Skip button verifies the jump landed and retries dropped commands. Per-user mixed policy and settings section.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.2.0/fillerskip_1.1.2.0_jf1011.zip",
-        "checksum": "1ea5b21da0a4cc903171b565638ac2c0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.3.0/fillerskip_1.1.3.0_jf1011.zip",
+        "checksum": "4c7bd9eb57c00e41a4fcdb484a5cedbc",
         "timestamp": "2026-07-18T21:00:00Z"
       },
       {
-        "version": "1.1.2.0",
-        "changelog": "Per-user mixed canon/filler policy; native settings section before Advanced; per-user web-button toggle.",
+        "version": "1.1.3.0",
+        "changelog": "Skip button verifies the jump landed and retries dropped commands. Per-user mixed policy and settings section.",
         "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.2.0/fillerskip_1.1.2.0_jf1010.zip",
-        "checksum": "10bd0e1c7215faa8ba67fda97712fabe",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.3.0/fillerskip_1.1.3.0_jf1010.zip",
+        "checksum": "f39b6eed4baa2133ee1298e6ae461fdd",
         "timestamp": "2026-07-18T21:00:00Z"
       }
     ]
