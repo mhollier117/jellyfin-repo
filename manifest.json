@@ -36,20 +36,20 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-fillerskip/main/logo.png",
     "versions": [
       {
-        "version": "1.1.0.0",
-        "changelog": "Skip button + per-user auto-skip mode with Settings > Playback opt-in.",
+        "version": "1.1.1.0",
+        "changelog": "Per-user settings section: native styling before the Advanced section; adds a per-user web-button visibility toggle.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.0.0/fillerskip_1.1.0.0_jf12.zip",
-        "checksum": "24f98449e01939ea4ace63dd7b1d1efd",
-        "timestamp": "2026-07-18T18:30:00Z"
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.1.0/fillerskip_1.1.1.0_jf12.zip",
+        "checksum": "51e131649c67c7d3cc0ccd9b3f9687eb",
+        "timestamp": "2026-07-18T20:00:00Z"
       },
       {
-        "version": "1.1.0.0",
-        "changelog": "Skip button + per-user auto-skip mode with Settings > Playback opt-in.",
+        "version": "1.1.1.0",
+        "changelog": "Per-user settings section: native styling before the Advanced section; adds a per-user web-button visibility toggle.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.0.0/fillerskip_1.1.0.0_jf1011.zip",
-        "checksum": "a4e6de4f366bb1d2b20b3267daabf1de",
-        "timestamp": "2026-07-18T18:30:00Z"
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.1.0/fillerskip_1.1.1.0_jf1011.zip",
+        "checksum": "d43cc6ef0b03b1b0613fb0f9f708c1a0",
+        "timestamp": "2026-07-18T20:00:00Z"
       }
     ]
   }
