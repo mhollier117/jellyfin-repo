@@ -117,6 +117,30 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
     "versions": [
       {
+        "version": "1.1.0.0",
+        "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.0.0/download-time_1.1.0.0_jf12.0.zip",
+        "checksum": "807091bb5b791ae5183293f888ab614a",
+        "timestamp": "2026-07-25T21:05:00Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.0.0/download-time_1.1.0.0_jf10.11.zip",
+        "checksum": "59d5bd6af26b7cf8598c7b2c8c390017",
+        "timestamp": "2026-07-25T21:05:00Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.0.0/download-time_1.1.0.0_jf10.10.7.zip",
+        "checksum": "fa6508b897dc1284ed88af9402cfa37f",
+        "timestamp": "2026-07-25T21:05:00Z"
+      },
+      {
         "version": "1.0.0.0",
         "changelog": "Initial release",
         "targetAbi": "12.0.0.0",
