@@ -106,5 +106,40 @@
         "timestamp": "2026-07-18T22:30:00Z"
       }
     ]
+  },
+  {
+    "guid": "4d557ba6-d562-4209-9a04-b782775dc2ff",
+    "name": "Download Time",
+    "description": "Detects missing episodes (gaps you missed and new releases not yet downloaded) and missing franchise movies, using each item's identifying source (TVDB/AniDB/TMDB). Dashboard report, poster badges, optional native missing-episode placeholders.",
+    "overview": "Missing episode and movie detector",
+    "owner": "mhollier117",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.0.0.0/download-time_1.0.0.0_jf12.0.zip",
+        "checksum": "24d3cc263500c31196a4ae6b479eb49e",
+        "timestamp": "2026-07-25T19:35:00Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.0.0.0/download-time_1.0.0.0_jf10.11.zip",
+        "checksum": "28a64fa190226c1fc93a133e35c3501a",
+        "timestamp": "2026-07-25T19:35:00Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.0.0.0/download-time_1.0.0.0_jf10.10.7.zip",
+        "checksum": "493c7005f6dba320c8e537fc786450cf",
+        "timestamp": "2026-07-25T19:35:00Z"
+      }
+    ]
   }
 ]
