@@ -117,6 +117,30 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
     "versions": [
       {
+        "version": "1.2.0.0",
+        "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.2.0.0/download-time_1.2.0.0_jf12.0.zip",
+        "checksum": "c4c9a81607a1458e9b1e289184221c1a",
+        "timestamp": "2026-07-26T17:00:00Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.2.0.0/download-time_1.2.0.0_jf10.11.zip",
+        "checksum": "e5b1be1e49ebd99e8aade6a7d352be70",
+        "timestamp": "2026-07-26T17:00:00Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.2.0.0/download-time_1.2.0.0_jf10.10.7.zip",
+        "checksum": "cfc5a40ba90c507693bb3f6e7b097ad4",
+        "timestamp": "2026-07-26T17:00:00Z"
+      },
+      {
         "version": "1.1.1.0",
         "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
         "targetAbi": "12.0.0.0",
