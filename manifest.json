@@ -117,6 +117,30 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
     "versions": [
       {
+        "version": "1.3.0.0",
+        "changelog": "Anime matching correct for merged AND split layouts: AniDB Sequel-chain union catalogs, layout-safe id-less fallback, chain-aware placement.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.0.0/download-time_1.3.0.0_jf12.0.zip",
+        "checksum": "88ba216493bfe0fb9297dcb9dc9e7f31",
+        "timestamp": "2026-07-26T19:30:00Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Anime matching correct for merged AND split layouts: AniDB Sequel-chain union catalogs, layout-safe id-less fallback, chain-aware placement.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.0.0/download-time_1.3.0.0_jf10.11.zip",
+        "checksum": "a1fb3d4c2cbddf43c8d282f99ddd4ae6",
+        "timestamp": "2026-07-26T19:30:00Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Anime matching correct for merged AND split layouts: AniDB Sequel-chain union catalogs, layout-safe id-less fallback, chain-aware placement.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.0.0/download-time_1.3.0.0_jf10.10.7.zip",
+        "checksum": "8d80e3f94d1db038171c3a4950bfc454",
+        "timestamp": "2026-07-26T19:30:00Z"
+      },
+      {
         "version": "1.2.0.0",
         "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
         "targetAbi": "12.0.0.0",
