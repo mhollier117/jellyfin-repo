@@ -117,6 +117,30 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
     "versions": [
       {
+        "version": "1.1.1.0",
+        "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.1.0/download-time_1.1.1.0_jf12.0.zip",
+        "checksum": "7fc52bfc2d789b6eba038e749fa7ceb2",
+        "timestamp": "2026-07-25T21:45:00Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.1.0/download-time_1.1.1.0_jf10.11.zip",
+        "checksum": "f6a9e4745a33ae39dd310d66fe4d3fde",
+        "timestamp": "2026-07-25T21:45:00Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.1.0/download-time_1.1.1.0_jf10.10.7.zip",
+        "checksum": "e6ad74082e7e7db14b7c7f71442afb5d",
+        "timestamp": "2026-07-25T21:45:00Z"
+      },
+      {
         "version": "1.1.0.0",
         "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
         "targetAbi": "12.0.0.0",
