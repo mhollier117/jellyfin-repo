@@ -309,5 +309,40 @@
         "timestamp": "2026-07-25T19:35:00Z"
       }
     ]
+  },
+  {
+    "guid": "c6c0526b-5d62-4cee-9143-833bd43a4e78",
+    "name": "Ronin",
+    "description": "An Anime toolkit for Jellyfin: filler/canon tagging and season re-organisation. Fork of ahza-code/jellyfin-plugin-ronin with multi-ABI builds and retry fixes.",
+    "overview": "An Anime toolkit for Jellyfin",
+    "owner": "mhollier117",
+    "category": "Anime",
+    "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-ronin/master/Images/logo.jpg",
+    "versions": [
+      {
+        "version": "1.0.2.0",
+        "changelog": "Retry transient TVDB/AniDB scrape failures (3 attempts, exponential backoff) and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout. Multi-ABI builds.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.2.0/ronin_1.0.2.0_jf12.0.zip",
+        "checksum": "bb8c0288f7c834ce009ff21da92de7a4",
+        "timestamp": "2026-08-01T19:00:00Z"
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "Retry transient TVDB/AniDB scrape failures (3 attempts, exponential backoff) and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout. Multi-ABI builds.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.2.0/ronin_1.0.2.0_jf10.11.zip",
+        "checksum": "39790ac8dcf2bc80aa01a67ee0093b55",
+        "timestamp": "2026-08-01T19:00:00Z"
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "Retry transient TVDB/AniDB scrape failures (3 attempts, exponential backoff) and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout. Multi-ABI builds.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.2.0/ronin_1.0.2.0_jf10.10.7.zip",
+        "checksum": "589c80359e9d7453f2cdbe54f1fc8ea3",
+        "timestamp": "2026-08-01T19:00:00Z"
+      }
+    ]
   }
 ]
