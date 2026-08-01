@@ -320,6 +320,30 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-ronin/master/Images/logo.jpg",
     "versions": [
       {
+        "version": "1.0.4.0",
+        "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.4.0/ronin_1.0.4.0_jf12.0.zip",
+        "checksum": "ea894b6f85c18d9a34eb49809e24e6bb",
+        "timestamp": "2026-08-01T21:00:00Z"
+      },
+      {
+        "version": "1.0.4.0",
+        "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.4.0/ronin_1.0.4.0_jf10.11.zip",
+        "checksum": "9741363b1bf78fcba0765b7c6edcc0bd",
+        "timestamp": "2026-08-01T21:00:00Z"
+      },
+      {
+        "version": "1.0.4.0",
+        "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.4.0/ronin_1.0.4.0_jf10.10.7.zip",
+        "checksum": "b86479e9abbe4126c1af1ee658464166",
+        "timestamp": "2026-08-01T21:00:00Z"
+      },
+      {
         "version": "1.0.3.0",
         "changelog": "Ships HtmlAgilityPack (omitted in 1.0.2.0). Retry transient TVDB/AniDB failures and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout.",
         "targetAbi": "12.0.0.0",
