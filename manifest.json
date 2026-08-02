@@ -523,6 +523,22 @@
   "imageUrl": "",
   "versions": [
    {
+    "version": "1.1.2.0",
+    "changelog": "Canon marking in episode titles: Manga Canon episodes are prefixed with [C] and Anime Canon episodes with [AC], alongside the existing [F] (filler) and [C/F] (mixed) prefixes. Re-runs replace a stale prefix with the current category's instead of stacking; only the four exact known prefixes are ever stripped, so bracketed text that is part of the real title is never touched. Episodes without an animefillerlist.com row keep their name untouched. All four prefixes are gated by the 'Write title prefixes' toggle.",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-animefillermarker/releases/download/v1.1.2.0/animefiller_1.1.2.0_jf12.0.zip",
+    "checksum": "C6AC4969C72DD9762D246C3381DD0B60",
+    "timestamp": "2026-08-02T00:00:00.0000000Z"
+   },
+   {
+    "version": "1.1.2.0",
+    "changelog": "Canon marking in episode titles: Manga Canon episodes are prefixed with [C] and Anime Canon episodes with [AC], alongside the existing [F] (filler) and [C/F] (mixed) prefixes. Re-runs replace a stale prefix with the current category's instead of stacking; only the four exact known prefixes are ever stripped, so bracketed text that is part of the real title is never touched. Episodes without an animefillerlist.com row keep their name untouched. All four prefixes are gated by the 'Write title prefixes' toggle.",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-animefillermarker/releases/download/v1.1.2.0/animefiller_1.1.2.0_jf10.11.zip",
+    "checksum": "6D0627404FD4581262FB412BD79C94E5",
+    "timestamp": "2026-08-02T00:00:00.0000000Z"
+   },
+   {
     "version": "1.1.1.0",
     "changelog": "Slug fallback: an ordered candidate list is tried until animefillerlist.com answers (fixes 'Food Wars! Shokugeki no Soma' -> shokugeki-no-soma); manual overrides ('Series Name=slug') in the settings are checked first; the <3-character slug guard applies to every candidate. Positive category marking: every matched episode gets a Jellyfin tag with its AFL category (Manga Canon, Mixed Canon/Filler, Filler, Anime Canon), so a missing tag means 'never parsed' instead of 'parsed, canon' - restores and supersedes the category tags previously provided by Ronin's filler task (now retired); full coverage regenerates on the next run. New toggles WriteTitlePrefixes and WriteCategoryTags (both default on).",
     "targetAbi": "12.0.0.0",
