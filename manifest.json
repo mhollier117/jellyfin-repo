@@ -523,6 +523,22 @@
   "imageUrl": "",
   "versions": [
    {
+    "version": "1.1.1.0",
+    "changelog": "Slug fallback: an ordered candidate list is tried until animefillerlist.com answers (fixes 'Food Wars! Shokugeki no Soma' -> shokugeki-no-soma); manual overrides ('Series Name=slug') in the settings are checked first; the <3-character slug guard applies to every candidate. Positive category marking: every matched episode gets a Jellyfin tag with its AFL category (Manga Canon, Mixed Canon/Filler, Filler, Anime Canon), so a missing tag means 'never parsed' instead of 'parsed, canon' - restores and supersedes the category tags previously provided by Ronin's filler task (now retired); full coverage regenerates on the next run. New toggles WriteTitlePrefixes and WriteCategoryTags (both default on).",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-animefillermarker/releases/download/v1.1.1.0/animefiller_1.1.1.0_jf12.0.zip",
+    "checksum": "573FAC869057CF3BF5B65E7207EFC875",
+    "timestamp": "2026-08-02T00:00:00.0000000Z"
+   },
+   {
+    "version": "1.1.1.0",
+    "changelog": "Slug fallback: an ordered candidate list is tried until animefillerlist.com answers (fixes 'Food Wars! Shokugeki no Soma' -> shokugeki-no-soma); manual overrides ('Series Name=slug') in the settings are checked first; the <3-character slug guard applies to every candidate. Positive category marking: every matched episode gets a Jellyfin tag with its AFL category (Manga Canon, Mixed Canon/Filler, Filler, Anime Canon), so a missing tag means 'never parsed' instead of 'parsed, canon' - restores and supersedes the category tags previously provided by Ronin's filler task (now retired); full coverage regenerates on the next run. New toggles WriteTitlePrefixes and WriteCategoryTags (both default on).",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-animefillermarker/releases/download/v1.1.1.0/animefiller_1.1.1.0_jf10.11.zip",
+    "checksum": "04F5E69CF4975633F4E3AC0BBB5946D9",
+    "timestamp": "2026-08-02T00:00:00.0000000Z"
+   },
+   {
     "version": "1.1.0.0",
     "changelog": "Library allow-list: the task only processes series in libraries ticked in the plugin settings; an empty list processes nothing (fail-safe - tick your Anime library once after upgrading). Configuration is read at task run time. Slug sanity guard: derived animefillerlist.com slugs shorter than 3 characters are skipped to avoid false positives (e.g. 'The X-Files' collapsing to 'x').",
     "targetAbi": "12.0.0.0",
