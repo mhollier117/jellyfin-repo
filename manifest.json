@@ -117,6 +117,30 @@
   "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
   "versions": [
    {
+    "version": "1.3.4.1",
+    "changelog": "Duplicate virtual episode sweep gains an absolute-coverage proof for merged libraries: aired-season phantoms are removed even when per-episode ids are stale, with strict ambiguity guards.",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.4.1/download-time_1.3.4.1_jf12.0.zip",
+    "checksum": "9f02e34507796da1906e3411779b7d78",
+    "timestamp": "2026-08-02T20:22:00Z"
+   },
+   {
+    "version": "1.3.4.1",
+    "changelog": "Duplicate virtual episode sweep gains an absolute-coverage proof for merged libraries: aired-season phantoms are removed even when per-episode ids are stale, with strict ambiguity guards.",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.4.1/download-time_1.3.4.1_jf10.11.zip",
+    "checksum": "2dd68d486cb620cf417a43226e9f929c",
+    "timestamp": "2026-08-02T20:22:00Z"
+   },
+   {
+    "version": "1.3.4.1",
+    "changelog": "Duplicate virtual episode sweep gains an absolute-coverage proof for merged libraries: aired-season phantoms are removed even when per-episode ids are stale, with strict ambiguity guards.",
+    "targetAbi": "10.10.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.4.1/download-time_1.3.4.1_jf10.10.7.zip",
+    "checksum": "5d648a4f27c32826339624e0df8b6f19",
+    "timestamp": "2026-08-02T20:22:00Z"
+   },
+   {
     "version": "1.3.4.0",
     "changelog": "Merged anime libraries: duplicated local episode ids no longer report owned episodes missing; aired-season placeholders map to Season 1 absolute numbering; scans remove duplicate virtual episodes that shadow owned files.",
     "targetAbi": "12.0.0.0",
