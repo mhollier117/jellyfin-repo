@@ -320,6 +320,30 @@
     "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-ronin/master/Images/logo.jpg",
     "versions": [
       {
+        "version": "1.0.5.0",
+        "changelog": "Self-healing merge: episodes re-homed via the server's own recipe (ParentIndexNumber + SeasonId + SeasonName; ParentId never touched), stale half-merges repaired on re-run. Ronin no longer deletes seasons or any other items; empty virtual seasons are cleaned up by the server's guarded refresh. New library allow-list. BREAKING: after upgrading the list is empty and all tasks do nothing until you tick your anime library once in the plugin settings.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.0/ronin_1.0.5.0_jf12.0.zip",
+        "checksum": "89a8d3778e0cd97b220d1af8dfc722d1",
+        "timestamp": "2026-08-02T15:31:00Z"
+      },
+      {
+        "version": "1.0.5.0",
+        "changelog": "Self-healing merge: episodes re-homed via the server's own recipe (ParentIndexNumber + SeasonId + SeasonName; ParentId never touched), stale half-merges repaired on re-run. Ronin no longer deletes seasons or any other items; empty virtual seasons are cleaned up by the server's guarded refresh. New library allow-list. BREAKING: after upgrading the list is empty and all tasks do nothing until you tick your anime library once in the plugin settings.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.0/ronin_1.0.5.0_jf10.11.zip",
+        "checksum": "0bd75a83dd977542c695cc5e3ccc6b88",
+        "timestamp": "2026-08-02T15:31:00Z"
+      },
+      {
+        "version": "1.0.5.0",
+        "changelog": "Self-healing merge: episodes re-homed via the server's own recipe (ParentIndexNumber + SeasonId + SeasonName; ParentId never touched), stale half-merges repaired on re-run. Ronin no longer deletes seasons or any other items; empty virtual seasons are cleaned up by the server's guarded refresh. New library allow-list. BREAKING: after upgrading the list is empty and all tasks do nothing until you tick your anime library once in the plugin settings.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.0/ronin_1.0.5.0_jf10.10.7.zip",
+        "checksum": "3036a036dd8c8977711c1fe869bf630b",
+        "timestamp": "2026-08-02T15:31:00Z"
+      },
+      {
         "version": "1.0.4.0",
         "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
         "targetAbi": "12.0.0.0",
