@@ -117,6 +117,30 @@
   "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
   "versions": [
    {
+    "version": "1.3.4.0",
+    "changelog": "Merged anime libraries: duplicated local episode ids no longer report owned episodes missing; aired-season placeholders map to Season 1 absolute numbering; scans remove duplicate virtual episodes that shadow owned files.",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.4.0/download-time_1.3.4.0_jf12.0.zip",
+    "checksum": "5bab654047d12da855601abf66dbf1ed",
+    "timestamp": "2026-08-02T17:25:00Z"
+   },
+   {
+    "version": "1.3.4.0",
+    "changelog": "Merged anime libraries: duplicated local episode ids no longer report owned episodes missing; aired-season placeholders map to Season 1 absolute numbering; scans remove duplicate virtual episodes that shadow owned files.",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.4.0/download-time_1.3.4.0_jf10.11.zip",
+    "checksum": "e36b5c5cc5e8ed34a36e8eb3760706cd",
+    "timestamp": "2026-08-02T17:25:00Z"
+   },
+   {
+    "version": "1.3.4.0",
+    "changelog": "Merged anime libraries: duplicated local episode ids no longer report owned episodes missing; aired-season placeholders map to Season 1 absolute numbering; scans remove duplicate virtual episodes that shadow owned files.",
+    "targetAbi": "10.10.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.4.0/download-time_1.3.4.0_jf10.10.7.zip",
+    "checksum": "99cc7d4900c8fe41dd64ca5957e18f3b",
+    "timestamp": "2026-08-02T17:25:00Z"
+   },
+   {
     "version": "1.3.3.0",
     "changelog": "Announced future seasons and credits-only AniDB entries no longer reported as fetch failures.",
     "targetAbi": "12.0.0.0",
