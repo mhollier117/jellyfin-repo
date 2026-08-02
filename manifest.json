@@ -320,6 +320,30 @@
         "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-ronin/master/Images/logo.jpg",
         "versions": [
             {
+                "version": "1.0.6.1",
+                "changelog": "Fix for the merged-look endpoint: scope by series ancestors; adds diagnostic stage-count logging.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.6.1/ronin_1.0.6.1_jf12.0.zip",
+                "checksum": "155C9207FC7721024AE3A9715DB30840",
+                "timestamp": "2026-08-02 17:45:00"
+            },
+            {
+                "version": "1.0.6.1",
+                "changelog": "Fix for the merged-look endpoint: scope by series ancestors; adds diagnostic stage-count logging.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.6.1/ronin_1.0.6.1_jf10.11.zip",
+                "checksum": "970238E2C9A5890B302CC6ABEA52F29A",
+                "timestamp": "2026-08-02 17:45:00"
+            },
+            {
+                "version": "1.0.6.1",
+                "changelog": "Fix for the merged-look endpoint: scope by series ancestors; adds diagnostic stage-count logging.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.6.1/ronin_1.0.6.1_jf10.10.7.zip",
+                "checksum": "2FBBE458E92308144B0F7D6FBEEE40BD",
+                "timestamp": "2026-08-02 17:45:00"
+            },
+            {
                 "version": "1.0.6.0",
                 "changelog": "New: merged look without touching files - hides season rows that no episode references. Configurable (on by default), scoped to the library allow-list; Season 1, Specials and placeholder-holding seasons are never hidden. Presentation only.",
                 "targetAbi": "12.0.0.0",
