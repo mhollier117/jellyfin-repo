@@ -320,6 +320,30 @@
         "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-ronin/master/Images/logo.jpg",
         "versions": [
             {
+                "version": "1.0.6.0",
+                "changelog": "New: merged look without touching files - hides season rows that no episode references. Configurable (on by default), scoped to the library allow-list; Season 1, Specials and placeholder-holding seasons are never hidden. Presentation only.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.6.0/ronin_1.0.6.0_jf12.0.zip",
+                "checksum": "4A60EE2AE2BE2F6904BE14914ABB7086",
+                "timestamp": "2026-08-02 17:10:00"
+            },
+            {
+                "version": "1.0.6.0",
+                "changelog": "New: merged look without touching files - hides season rows that no episode references. Configurable (on by default), scoped to the library allow-list; Season 1, Specials and placeholder-holding seasons are never hidden. Presentation only.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.6.0/ronin_1.0.6.0_jf10.11.zip",
+                "checksum": "07623584FFA3DCAF45C4C676EC4C3DE8",
+                "timestamp": "2026-08-02 17:10:00"
+            },
+            {
+                "version": "1.0.6.0",
+                "changelog": "New: merged look without touching files - hides season rows that no episode references. Configurable (on by default), scoped to the library allow-list; Season 1, Specials and placeholder-holding seasons are never hidden. Presentation only.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.6.0/ronin_1.0.6.0_jf10.10.7.zip",
+                "checksum": "063F11ECD2E87CCFEFF2590FA5B18F6C",
+                "timestamp": "2026-08-02 17:10:00"
+            },
+            {
                 "version": "1.0.5.1",
                 "changelog": "Fix: scheduled tasks now read the plugin configuration live at run time. Settings saved after server startup (library allow-list, rate limit, rename options) were silently ignored until the next restart.",
                 "targetAbi": "12.0.0.0",
