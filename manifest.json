@@ -1,420 +1,444 @@
 [
-  {
-    "guid": "e3d9b3a1-52c7-4b6e-9d1a-6f4a8c2b7e91",
-    "name": "JF Remote",
-    "description": "Control any Jellyfin session from your phone: playstate, trickplay seeking, segment skip, tracks/quality/speed, episode browsing, watch-along.",
-    "overview": "Standalone mobile remote UI at /JfRemote/",
-    "owner": "mhollier117",
-    "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
-    "versions": [
-      {
-        "version": "1.0.9.0",
-        "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.9.0/jfremote_1.0.9.0_jf12.zip",
-        "checksum": "ac18806a41c6c9d43064c1be1788cf4d",
-        "timestamp": "2026-07-18T22:30:00Z"
-      },
-      {
-        "version": "1.0.9.0",
-        "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.9.0/jfremote_1.0.9.0_jf1011.zip",
-        "checksum": "f91b044e69d4778aa685fe0dabca4f9d",
-        "timestamp": "2026-07-18T22:30:00Z"
-      },
-      {
-        "version": "1.0.9.0",
-        "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
-        "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.9.0/jfremote_1.0.9.0_jf1010.zip",
-        "checksum": "9318901d246162099e743dbb85d4d649",
-        "timestamp": "2026-07-18T22:30:00Z"
-      }
-    ]
-  },
-  {
-    "guid": "852f9e20-b11f-47bd-898a-ef38c2dad83c",
-    "name": "Filler Skip",
-    "description": "On-screen skip-filler button (web) plus per-user opt-in auto-skip on autoplay (all remote-controllable clients). AnimeFillerList-driven; matches Anime Filler Marker renames when present.",
-    "overview": "Skip anime filler to the next canon episode",
-    "owner": "mhollier117",
-    "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-fillerskip/main/logo.png",
-    "versions": [
-      {
-        "version": "1.1.3.0",
-        "changelog": "Skip button verifies the jump landed and retries dropped commands. Per-user mixed policy and settings section.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.3.0/fillerskip_1.1.3.0_jf12.zip",
-        "checksum": "501d17d91affd8dca2d9b6fdbcc38ce0",
-        "timestamp": "2026-07-18T21:00:00Z"
-      },
-      {
-        "version": "1.1.3.0",
-        "changelog": "Skip button verifies the jump landed and retries dropped commands. Per-user mixed policy and settings section.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.3.0/fillerskip_1.1.3.0_jf1011.zip",
-        "checksum": "4c7bd9eb57c00e41a4fcdb484a5cedbc",
-        "timestamp": "2026-07-18T21:00:00Z"
-      },
-      {
-        "version": "1.1.3.0",
-        "changelog": "Skip button verifies the jump landed and retries dropped commands. Per-user mixed policy and settings section.",
-        "targetAbi": "10.10.7.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.3.0/fillerskip_1.1.3.0_jf1010.zip",
-        "checksum": "f39b6eed4baa2133ee1298e6ae461fdd",
-        "timestamp": "2026-07-18T21:00:00Z"
-      }
-    ]
-  },
-  {
-    "guid": "f5a34f7b-2e8a-4e6a-a722-3a216a81b374",
-    "name": "JavaScript Injector",
-    "description": "Unofficial Jellyfin 12.0 build of n00bcodr's JavaScript Injector, compiled from upstream source. Required for Filler Skip's web button and JF Remote's still-watching integration. On Jellyfin 10.x install it from the author's own repository instead.",
-    "overview": "Inject custom JavaScript into the web client (12.0 build)",
-    "owner": "n00bcodr",
-    "category": "General",
-    "imageUrl": "",
-    "versions": [
-      {
-        "version": "3.4.0.0",
-        "changelog": "Upstream 3.4.0 compiled for Jellyfin 12.0 (net10.0). Source: github.com/n00bcodr/Jellyfin-JavaScript-Injector",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-repo/releases/download/thirdparty-12.0/javascriptinjector_3.4.0.0_jf12.zip",
-        "checksum": "96e557886d8de464b47a046afa9fb97c",
-        "timestamp": "2026-07-18T22:30:00Z"
-      }
-    ]
-  },
-  {
-    "guid": "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
-    "name": "File Transformation",
-    "description": "Unofficial Jellyfin 12.0 build of IAmParadox27's File Transformation (upstream v12 branch). Web-asset transformation backbone used by JavaScript Injector, Intro Skipper and others. On Jellyfin 10.x install it from the author's own repository instead.",
-    "overview": "Response-time web file transformation (12.0 build)",
-    "owner": "IAmParadox27",
-    "category": "General",
-    "imageUrl": "",
-    "versions": [
-      {
-        "version": "3.0.0.0",
-        "changelog": "Upstream v12 branch (3.0.0) compiled for Jellyfin 12.0 (net10.0). Source: github.com/IAmParadox27/jellyfin-plugin-file-transformation",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-repo/releases/download/thirdparty-12.0/filetransformation_3.0.0.0_jf12.zip",
-        "checksum": "f61e202aa847c3dce08df65220502529",
-        "timestamp": "2026-07-18T22:30:00Z"
-      }
-    ]
-  },
-  {
-    "guid": "4d557ba6-d562-4209-9a04-b782775dc2ff",
-    "name": "Download Time",
-    "description": "Detects missing episodes (gaps you missed and new releases not yet downloaded) and missing franchise movies, using each item's identifying source (TVDB/AniDB/TMDB). Dashboard report, poster badges, optional native missing-episode placeholders.",
-    "overview": "Missing episode and movie detector",
-    "owner": "mhollier117",
-    "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
-    "versions": [
-      {
-        "version": "1.3.3.0",
-        "changelog": "Announced future seasons and credits-only AniDB entries no longer reported as fetch failures.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.3.0/download-time_1.3.3.0_jf12.0.zip",
-        "checksum": "46a83b52a94155ca7f3308bedcb5d8f5",
-        "timestamp": "2026-07-26T21:40:00Z"
-      },
-      {
-        "version": "1.3.3.0",
-        "changelog": "Announced future seasons and credits-only AniDB entries no longer reported as fetch failures.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.3.0/download-time_1.3.3.0_jf10.11.zip",
-        "checksum": "10c4d1713d5eb7b801e9a551e0a24772",
-        "timestamp": "2026-07-26T21:40:00Z"
-      },
-      {
-        "version": "1.3.3.0",
-        "changelog": "Announced future seasons and credits-only AniDB entries no longer reported as fetch failures.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.3.0/download-time_1.3.3.0_jf10.10.7.zip",
-        "checksum": "4a3b68454cd546e74bbebcf5e1f9bf4e",
-        "timestamp": "2026-07-26T21:40:00Z"
-      },
-      {
-        "version": "1.3.2.0",
-        "changelog": "AniDB credits, trailers and parodies are no longer reported as missing episodes (only regular episodes and true specials count).",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.2.0/download-time_1.3.2.0_jf12.0.zip",
-        "checksum": "22d70bc1c7b68889ce01fd33064b5bef",
-        "timestamp": "2026-07-26T21:15:00Z"
-      },
-      {
-        "version": "1.3.2.0",
-        "changelog": "AniDB credits, trailers and parodies are no longer reported as missing episodes (only regular episodes and true specials count).",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.2.0/download-time_1.3.2.0_jf10.11.zip",
-        "checksum": "d5f961e0d7a30a61cda9f4ea09c49ddb",
-        "timestamp": "2026-07-26T21:15:00Z"
-      },
-      {
-        "version": "1.3.2.0",
-        "changelog": "AniDB credits, trailers and parodies are no longer reported as missing episodes (only regular episodes and true specials count).",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.2.0/download-time_1.3.2.0_jf10.10.7.zip",
-        "checksum": "66c13a5a669f327b7591a021d92bf44b",
-        "timestamp": "2026-07-26T21:15:00Z"
-      },
-      {
-        "version": "1.3.1.0",
-        "changelog": "Anime matching for merged AND split layouts, adversarially audited: sequel-chain unions plus fixes for movie-entry axis pollution, specials-only ordinal shift, S0 specials, wrong-anidbid fail-safe.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.1.0/download-time_1.3.1.0_jf12.0.zip",
-        "checksum": "57618d97b1d74db9c9ffb5321b8b1d77",
-        "timestamp": "2026-07-26T21:15:00Z"
-      },
-      {
-        "version": "1.3.1.0",
-        "changelog": "Anime matching for merged AND split layouts, adversarially audited: sequel-chain unions plus fixes for movie-entry axis pollution, specials-only ordinal shift, S0 specials, wrong-anidbid fail-safe.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.1.0/download-time_1.3.1.0_jf10.11.zip",
-        "checksum": "71782237cb848db4d4dfb9c11ea82ed3",
-        "timestamp": "2026-07-26T21:15:00Z"
-      },
-      {
-        "version": "1.3.1.0",
-        "changelog": "Anime matching for merged AND split layouts, adversarially audited: sequel-chain unions plus fixes for movie-entry axis pollution, specials-only ordinal shift, S0 specials, wrong-anidbid fail-safe.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.1.0/download-time_1.3.1.0_jf10.10.7.zip",
-        "checksum": "5e5ba44c3a831e4abae2b2be8d660403",
-        "timestamp": "2026-07-26T21:15:00Z"
-      },
-      {
-        "version": "1.3.0.0",
-        "changelog": "Anime matching correct for merged AND split layouts: AniDB Sequel-chain union catalogs, layout-safe id-less fallback, chain-aware placement.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.0.0/download-time_1.3.0.0_jf12.0.zip",
-        "checksum": "88ba216493bfe0fb9297dcb9dc9e7f31",
-        "timestamp": "2026-07-26T19:30:00Z"
-      },
-      {
-        "version": "1.3.0.0",
-        "changelog": "Anime matching correct for merged AND split layouts: AniDB Sequel-chain union catalogs, layout-safe id-less fallback, chain-aware placement.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.0.0/download-time_1.3.0.0_jf10.11.zip",
-        "checksum": "a1fb3d4c2cbddf43c8d282f99ddd4ae6",
-        "timestamp": "2026-07-26T19:30:00Z"
-      },
-      {
-        "version": "1.3.0.0",
-        "changelog": "Anime matching correct for merged AND split layouts: AniDB Sequel-chain union catalogs, layout-safe id-less fallback, chain-aware placement.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.0.0/download-time_1.3.0.0_jf10.10.7.zip",
-        "checksum": "8d80e3f94d1db038171c3a4950bfc454",
-        "timestamp": "2026-07-26T19:30:00Z"
-      },
-      {
-        "version": "1.2.0.0",
-        "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.2.0.0/download-time_1.2.0.0_jf12.0.zip",
-        "checksum": "c4c9a81607a1458e9b1e289184221c1a",
-        "timestamp": "2026-07-26T17:00:00Z"
-      },
-      {
-        "version": "1.2.0.0",
-        "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.2.0.0/download-time_1.2.0.0_jf10.11.zip",
-        "checksum": "e5b1be1e49ebd99e8aade6a7d352be70",
-        "timestamp": "2026-07-26T17:00:00Z"
-      },
-      {
-        "version": "1.2.0.0",
-        "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.2.0.0/download-time_1.2.0.0_jf10.10.7.zip",
-        "checksum": "cfc5a40ba90c507693bb3f6e7b097ad4",
-        "timestamp": "2026-07-26T17:00:00Z"
-      },
-      {
-        "version": "1.1.1.0",
-        "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.1.0/download-time_1.1.1.0_jf12.0.zip",
-        "checksum": "7fc52bfc2d789b6eba038e749fa7ceb2",
-        "timestamp": "2026-07-25T21:45:00Z"
-      },
-      {
-        "version": "1.1.1.0",
-        "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.1.0/download-time_1.1.1.0_jf10.11.zip",
-        "checksum": "f6a9e4745a33ae39dd310d66fe4d3fde",
-        "timestamp": "2026-07-25T21:45:00Z"
-      },
-      {
-        "version": "1.1.1.0",
-        "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.1.0/download-time_1.1.1.0_jf10.10.7.zip",
-        "checksum": "e6ad74082e7e7db14b7c7f71442afb5d",
-        "timestamp": "2026-07-25T21:45:00Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.0.0/download-time_1.1.0.0_jf12.0.zip",
-        "checksum": "807091bb5b791ae5183293f888ab614a",
-        "timestamp": "2026-07-25T21:05:00Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.0.0/download-time_1.1.0.0_jf10.11.zip",
-        "checksum": "59d5bd6af26b7cf8598c7b2c8c390017",
-        "timestamp": "2026-07-25T21:05:00Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.0.0/download-time_1.1.0.0_jf10.10.7.zip",
-        "checksum": "fa6508b897dc1284ed88af9402cfa37f",
-        "timestamp": "2026-07-25T21:05:00Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "Initial release",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.0.0.0/download-time_1.0.0.0_jf12.0.zip",
-        "checksum": "24d3cc263500c31196a4ae6b479eb49e",
-        "timestamp": "2026-07-25T19:35:00Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "Initial release",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.0.0.0/download-time_1.0.0.0_jf10.11.zip",
-        "checksum": "28a64fa190226c1fc93a133e35c3501a",
-        "timestamp": "2026-07-25T19:35:00Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "Initial release",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.0.0.0/download-time_1.0.0.0_jf10.10.7.zip",
-        "checksum": "493c7005f6dba320c8e537fc786450cf",
-        "timestamp": "2026-07-25T19:35:00Z"
-      }
-    ]
-  },
-  {
-    "guid": "c6c0526b-5d62-4cee-9143-833bd43a4e78",
-    "name": "Ronin",
-    "description": "An Anime toolkit for Jellyfin: filler/canon tagging and season re-organisation. Fork of ahza-code/jellyfin-plugin-ronin with multi-ABI builds and retry fixes.",
-    "overview": "An Anime toolkit for Jellyfin",
-    "owner": "mhollier117",
-    "category": "Anime",
-    "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-ronin/master/Images/logo.jpg",
-    "versions": [
-      {
-        "version": "1.0.5.0",
-        "changelog": "Self-healing merge: episodes re-homed via the server's own recipe (ParentIndexNumber + SeasonId + SeasonName; ParentId never touched), stale half-merges repaired on re-run. Ronin no longer deletes seasons or any other items; empty virtual seasons are cleaned up by the server's guarded refresh. New library allow-list. BREAKING: after upgrading the list is empty and all tasks do nothing until you tick your anime library once in the plugin settings.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.0/ronin_1.0.5.0_jf12.0.zip",
-        "checksum": "89a8d3778e0cd97b220d1af8dfc722d1",
-        "timestamp": "2026-08-02T15:31:00Z"
-      },
-      {
-        "version": "1.0.5.0",
-        "changelog": "Self-healing merge: episodes re-homed via the server's own recipe (ParentIndexNumber + SeasonId + SeasonName; ParentId never touched), stale half-merges repaired on re-run. Ronin no longer deletes seasons or any other items; empty virtual seasons are cleaned up by the server's guarded refresh. New library allow-list. BREAKING: after upgrading the list is empty and all tasks do nothing until you tick your anime library once in the plugin settings.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.0/ronin_1.0.5.0_jf10.11.zip",
-        "checksum": "0bd75a83dd977542c695cc5e3ccc6b88",
-        "timestamp": "2026-08-02T15:31:00Z"
-      },
-      {
-        "version": "1.0.5.0",
-        "changelog": "Self-healing merge: episodes re-homed via the server's own recipe (ParentIndexNumber + SeasonId + SeasonName; ParentId never touched), stale half-merges repaired on re-run. Ronin no longer deletes seasons or any other items; empty virtual seasons are cleaned up by the server's guarded refresh. New library allow-list. BREAKING: after upgrading the list is empty and all tasks do nothing until you tick your anime library once in the plugin settings.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.0/ronin_1.0.5.0_jf10.10.7.zip",
-        "checksum": "3036a036dd8c8977711c1fe869bf630b",
-        "timestamp": "2026-08-02T15:31:00Z"
-      },
-      {
-        "version": "1.0.4.0",
-        "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.4.0/ronin_1.0.4.0_jf12.0.zip",
-        "checksum": "ea894b6f85c18d9a34eb49809e24e6bb",
-        "timestamp": "2026-08-01T21:00:00Z"
-      },
-      {
-        "version": "1.0.4.0",
-        "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.4.0/ronin_1.0.4.0_jf10.11.zip",
-        "checksum": "9741363b1bf78fcba0765b7c6edcc0bd",
-        "timestamp": "2026-08-01T21:00:00Z"
-      },
-      {
-        "version": "1.0.4.0",
-        "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.4.0/ronin_1.0.4.0_jf10.10.7.zip",
-        "checksum": "b86479e9abbe4126c1af1ee658464166",
-        "timestamp": "2026-08-01T21:00:00Z"
-      },
-      {
-        "version": "1.0.3.0",
-        "changelog": "Ships HtmlAgilityPack (omitted in 1.0.2.0). Retry transient TVDB/AniDB failures and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.3.0/ronin_1.0.3.0_jf12.0.zip",
-        "checksum": "4464cf5001619cfab24c292b056738d6",
-        "timestamp": "2026-08-01T19:15:00Z"
-      },
-      {
-        "version": "1.0.3.0",
-        "changelog": "Ships HtmlAgilityPack (omitted in 1.0.2.0). Retry transient TVDB/AniDB failures and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.3.0/ronin_1.0.3.0_jf10.11.zip",
-        "checksum": "1f3b9262243120b813eb05c6a961c3e6",
-        "timestamp": "2026-08-01T19:15:00Z"
-      },
-      {
-        "version": "1.0.3.0",
-        "changelog": "Ships HtmlAgilityPack (omitted in 1.0.2.0). Retry transient TVDB/AniDB failures and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.3.0/ronin_1.0.3.0_jf10.10.7.zip",
-        "checksum": "27503a6c6ef7ea453f649b8585dd8ee9",
-        "timestamp": "2026-08-01T19:15:00Z"
-      },
-      {
-        "version": "1.0.2.0",
-        "changelog": "Retry transient TVDB/AniDB scrape failures (3 attempts, exponential backoff) and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout. Multi-ABI builds.",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.2.0/ronin_1.0.2.0_jf12.0.zip",
-        "checksum": "bb8c0288f7c834ce009ff21da92de7a4",
-        "timestamp": "2026-08-01T19:00:00Z"
-      },
-      {
-        "version": "1.0.2.0",
-        "changelog": "Retry transient TVDB/AniDB scrape failures (3 attempts, exponential backoff) and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout. Multi-ABI builds.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.2.0/ronin_1.0.2.0_jf10.11.zip",
-        "checksum": "39790ac8dcf2bc80aa01a67ee0093b55",
-        "timestamp": "2026-08-01T19:00:00Z"
-      },
-      {
-        "version": "1.0.2.0",
-        "changelog": "Retry transient TVDB/AniDB scrape failures (3 attempts, exponential backoff) and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout. Multi-ABI builds.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.2.0/ronin_1.0.2.0_jf10.10.7.zip",
-        "checksum": "589c80359e9d7453f2cdbe54f1fc8ea3",
-        "timestamp": "2026-08-01T19:00:00Z"
-      }
-    ]
-  }
+    {
+        "guid": "e3d9b3a1-52c7-4b6e-9d1a-6f4a8c2b7e91",
+        "name": "JF Remote",
+        "description": "Control any Jellyfin session from your phone: playstate, trickplay seeking, segment skip, tracks/quality/speed, episode browsing, watch-along.",
+        "overview": "Standalone mobile remote UI at /JfRemote/",
+        "owner": "mhollier117",
+        "category": "General",
+        "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
+        "versions": [
+            {
+                "version": "1.0.9.0",
+                "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.9.0/jfremote_1.0.9.0_jf12.zip",
+                "checksum": "ac18806a41c6c9d43064c1be1788cf4d",
+                "timestamp": "2026-07-18T22:30:00Z"
+            },
+            {
+                "version": "1.0.9.0",
+                "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.9.0/jfremote_1.0.9.0_jf1011.zip",
+                "checksum": "f91b044e69d4778aa685fe0dabca4f9d",
+                "timestamp": "2026-07-18T22:30:00Z"
+            },
+            {
+                "version": "1.0.9.0",
+                "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
+                "targetAbi": "10.10.7.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.0.9.0/jfremote_1.0.9.0_jf1010.zip",
+                "checksum": "9318901d246162099e743dbb85d4d649",
+                "timestamp": "2026-07-18T22:30:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "852f9e20-b11f-47bd-898a-ef38c2dad83c",
+        "name": "Filler Skip",
+        "description": "On-screen skip-filler button (web) plus per-user opt-in auto-skip on autoplay (all remote-controllable clients). AnimeFillerList-driven; matches Anime Filler Marker renames when present.",
+        "overview": "Skip anime filler to the next canon episode",
+        "owner": "mhollier117",
+        "category": "General",
+        "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-fillerskip/main/logo.png",
+        "versions": [
+            {
+                "version": "1.1.3.0",
+                "changelog": "Skip button verifies the jump landed and retries dropped commands. Per-user mixed policy and settings section.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.3.0/fillerskip_1.1.3.0_jf12.zip",
+                "checksum": "501d17d91affd8dca2d9b6fdbcc38ce0",
+                "timestamp": "2026-07-18T21:00:00Z"
+            },
+            {
+                "version": "1.1.3.0",
+                "changelog": "Skip button verifies the jump landed and retries dropped commands. Per-user mixed policy and settings section.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.3.0/fillerskip_1.1.3.0_jf1011.zip",
+                "checksum": "4c7bd9eb57c00e41a4fcdb484a5cedbc",
+                "timestamp": "2026-07-18T21:00:00Z"
+            },
+            {
+                "version": "1.1.3.0",
+                "changelog": "Skip button verifies the jump landed and retries dropped commands. Per-user mixed policy and settings section.",
+                "targetAbi": "10.10.7.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-fillerskip/releases/download/v1.1.3.0/fillerskip_1.1.3.0_jf1010.zip",
+                "checksum": "f39b6eed4baa2133ee1298e6ae461fdd",
+                "timestamp": "2026-07-18T21:00:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "f5a34f7b-2e8a-4e6a-a722-3a216a81b374",
+        "name": "JavaScript Injector",
+        "description": "Unofficial Jellyfin 12.0 build of n00bcodr's JavaScript Injector, compiled from upstream source. Required for Filler Skip's web button and JF Remote's still-watching integration. On Jellyfin 10.x install it from the author's own repository instead.",
+        "overview": "Inject custom JavaScript into the web client (12.0 build)",
+        "owner": "n00bcodr",
+        "category": "General",
+        "imageUrl": "",
+        "versions": [
+            {
+                "version": "3.4.0.0",
+                "changelog": "Upstream 3.4.0 compiled for Jellyfin 12.0 (net10.0). Source: github.com/n00bcodr/Jellyfin-JavaScript-Injector",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-repo/releases/download/thirdparty-12.0/javascriptinjector_3.4.0.0_jf12.zip",
+                "checksum": "96e557886d8de464b47a046afa9fb97c",
+                "timestamp": "2026-07-18T22:30:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+        "name": "File Transformation",
+        "description": "Unofficial Jellyfin 12.0 build of IAmParadox27's File Transformation (upstream v12 branch). Web-asset transformation backbone used by JavaScript Injector, Intro Skipper and others. On Jellyfin 10.x install it from the author's own repository instead.",
+        "overview": "Response-time web file transformation (12.0 build)",
+        "owner": "IAmParadox27",
+        "category": "General",
+        "imageUrl": "",
+        "versions": [
+            {
+                "version": "3.0.0.0",
+                "changelog": "Upstream v12 branch (3.0.0) compiled for Jellyfin 12.0 (net10.0). Source: github.com/IAmParadox27/jellyfin-plugin-file-transformation",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-repo/releases/download/thirdparty-12.0/filetransformation_3.0.0.0_jf12.zip",
+                "checksum": "f61e202aa847c3dce08df65220502529",
+                "timestamp": "2026-07-18T22:30:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "4d557ba6-d562-4209-9a04-b782775dc2ff",
+        "name": "Download Time",
+        "description": "Detects missing episodes (gaps you missed and new releases not yet downloaded) and missing franchise movies, using each item's identifying source (TVDB/AniDB/TMDB). Dashboard report, poster badges, optional native missing-episode placeholders.",
+        "overview": "Missing episode and movie detector",
+        "owner": "mhollier117",
+        "category": "General",
+        "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
+        "versions": [
+            {
+                "version": "1.3.3.0",
+                "changelog": "Announced future seasons and credits-only AniDB entries no longer reported as fetch failures.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.3.0/download-time_1.3.3.0_jf12.0.zip",
+                "checksum": "46a83b52a94155ca7f3308bedcb5d8f5",
+                "timestamp": "2026-07-26T21:40:00Z"
+            },
+            {
+                "version": "1.3.3.0",
+                "changelog": "Announced future seasons and credits-only AniDB entries no longer reported as fetch failures.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.3.0/download-time_1.3.3.0_jf10.11.zip",
+                "checksum": "10c4d1713d5eb7b801e9a551e0a24772",
+                "timestamp": "2026-07-26T21:40:00Z"
+            },
+            {
+                "version": "1.3.3.0",
+                "changelog": "Announced future seasons and credits-only AniDB entries no longer reported as fetch failures.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.3.0/download-time_1.3.3.0_jf10.10.7.zip",
+                "checksum": "4a3b68454cd546e74bbebcf5e1f9bf4e",
+                "timestamp": "2026-07-26T21:40:00Z"
+            },
+            {
+                "version": "1.3.2.0",
+                "changelog": "AniDB credits, trailers and parodies are no longer reported as missing episodes (only regular episodes and true specials count).",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.2.0/download-time_1.3.2.0_jf12.0.zip",
+                "checksum": "22d70bc1c7b68889ce01fd33064b5bef",
+                "timestamp": "2026-07-26T21:15:00Z"
+            },
+            {
+                "version": "1.3.2.0",
+                "changelog": "AniDB credits, trailers and parodies are no longer reported as missing episodes (only regular episodes and true specials count).",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.2.0/download-time_1.3.2.0_jf10.11.zip",
+                "checksum": "d5f961e0d7a30a61cda9f4ea09c49ddb",
+                "timestamp": "2026-07-26T21:15:00Z"
+            },
+            {
+                "version": "1.3.2.0",
+                "changelog": "AniDB credits, trailers and parodies are no longer reported as missing episodes (only regular episodes and true specials count).",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.2.0/download-time_1.3.2.0_jf10.10.7.zip",
+                "checksum": "66c13a5a669f327b7591a021d92bf44b",
+                "timestamp": "2026-07-26T21:15:00Z"
+            },
+            {
+                "version": "1.3.1.0",
+                "changelog": "Anime matching for merged AND split layouts, adversarially audited: sequel-chain unions plus fixes for movie-entry axis pollution, specials-only ordinal shift, S0 specials, wrong-anidbid fail-safe.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.1.0/download-time_1.3.1.0_jf12.0.zip",
+                "checksum": "57618d97b1d74db9c9ffb5321b8b1d77",
+                "timestamp": "2026-07-26T21:15:00Z"
+            },
+            {
+                "version": "1.3.1.0",
+                "changelog": "Anime matching for merged AND split layouts, adversarially audited: sequel-chain unions plus fixes for movie-entry axis pollution, specials-only ordinal shift, S0 specials, wrong-anidbid fail-safe.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.1.0/download-time_1.3.1.0_jf10.11.zip",
+                "checksum": "71782237cb848db4d4dfb9c11ea82ed3",
+                "timestamp": "2026-07-26T21:15:00Z"
+            },
+            {
+                "version": "1.3.1.0",
+                "changelog": "Anime matching for merged AND split layouts, adversarially audited: sequel-chain unions plus fixes for movie-entry axis pollution, specials-only ordinal shift, S0 specials, wrong-anidbid fail-safe.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.1.0/download-time_1.3.1.0_jf10.10.7.zip",
+                "checksum": "5e5ba44c3a831e4abae2b2be8d660403",
+                "timestamp": "2026-07-26T21:15:00Z"
+            },
+            {
+                "version": "1.3.0.0",
+                "changelog": "Anime matching correct for merged AND split layouts: AniDB Sequel-chain union catalogs, layout-safe id-less fallback, chain-aware placement.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.0.0/download-time_1.3.0.0_jf12.0.zip",
+                "checksum": "88ba216493bfe0fb9297dcb9dc9e7f31",
+                "timestamp": "2026-07-26T19:30:00Z"
+            },
+            {
+                "version": "1.3.0.0",
+                "changelog": "Anime matching correct for merged AND split layouts: AniDB Sequel-chain union catalogs, layout-safe id-less fallback, chain-aware placement.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.0.0/download-time_1.3.0.0_jf10.11.zip",
+                "checksum": "a1fb3d4c2cbddf43c8d282f99ddd4ae6",
+                "timestamp": "2026-07-26T19:30:00Z"
+            },
+            {
+                "version": "1.3.0.0",
+                "changelog": "Anime matching correct for merged AND split layouts: AniDB Sequel-chain union catalogs, layout-safe id-less fallback, chain-aware placement.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.0.0/download-time_1.3.0.0_jf10.10.7.zip",
+                "checksum": "8d80e3f94d1db038171c3a4950bfc454",
+                "timestamp": "2026-07-26T19:30:00Z"
+            },
+            {
+                "version": "1.2.0.0",
+                "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.2.0.0/download-time_1.2.0.0_jf12.0.zip",
+                "checksum": "c4c9a81607a1458e9b1e289184221c1a",
+                "timestamp": "2026-07-26T17:00:00Z"
+            },
+            {
+                "version": "1.2.0.0",
+                "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.2.0.0/download-time_1.2.0.0_jf10.11.zip",
+                "checksum": "e5b1be1e49ebd99e8aade6a7d352be70",
+                "timestamp": "2026-07-26T17:00:00Z"
+            },
+            {
+                "version": "1.2.0.0",
+                "changelog": "Missing Media view for all users: drawer entry + full-screen overlay in the web UI, read-only for non-admins, admin scan/mute controls, ShowUserPage toggle.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.2.0.0/download-time_1.2.0.0_jf10.10.7.zip",
+                "checksum": "cfc5a40ba90c507693bb3f6e7b097ad4",
+                "timestamp": "2026-07-26T17:00:00Z"
+            },
+            {
+                "version": "1.1.1.0",
+                "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.1.0/download-time_1.1.1.0_jf12.0.zip",
+                "checksum": "7fc52bfc2d789b6eba038e749fa7ceb2",
+                "timestamp": "2026-07-25T21:45:00Z"
+            },
+            {
+                "version": "1.1.1.0",
+                "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.1.0/download-time_1.1.1.0_jf10.11.zip",
+                "checksum": "f6a9e4745a33ae39dd310d66fe4d3fde",
+                "timestamp": "2026-07-25T21:45:00Z"
+            },
+            {
+                "version": "1.1.1.0",
+                "changelog": "Per-user AniDB client registration: blank default with clear fail-fast, settings fields for client name/version. README and license.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.1.0/download-time_1.1.1.0_jf10.10.7.zip",
+                "checksum": "e6ad74082e7e7db14b7c7f71442afb5d",
+                "timestamp": "2026-07-25T21:45:00Z"
+            },
+            {
+                "version": "1.1.0.0",
+                "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.0.0/download-time_1.1.0.0_jf12.0.zip",
+                "checksum": "807091bb5b791ae5183293f888ab614a",
+                "timestamp": "2026-07-25T21:05:00Z"
+            },
+            {
+                "version": "1.1.0.0",
+                "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.0.0/download-time_1.1.0.0_jf10.11.zip",
+                "checksum": "59d5bd6af26b7cf8598c7b2c8c390017",
+                "timestamp": "2026-07-25T21:05:00Z"
+            },
+            {
+                "version": "1.1.0.0",
+                "changelog": "Missing Media dashboard page as its own sidebar entry (stat-tile filters, search/sort, poster cards, mute controls, movie collections); settings page slimmed.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.1.0.0/download-time_1.1.0.0_jf10.10.7.zip",
+                "checksum": "fa6508b897dc1284ed88af9402cfa37f",
+                "timestamp": "2026-07-25T21:05:00Z"
+            },
+            {
+                "version": "1.0.0.0",
+                "changelog": "Initial release",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.0.0.0/download-time_1.0.0.0_jf12.0.zip",
+                "checksum": "24d3cc263500c31196a4ae6b479eb49e",
+                "timestamp": "2026-07-25T19:35:00Z"
+            },
+            {
+                "version": "1.0.0.0",
+                "changelog": "Initial release",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.0.0.0/download-time_1.0.0.0_jf10.11.zip",
+                "checksum": "28a64fa190226c1fc93a133e35c3501a",
+                "timestamp": "2026-07-25T19:35:00Z"
+            },
+            {
+                "version": "1.0.0.0",
+                "changelog": "Initial release",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.0.0.0/download-time_1.0.0.0_jf10.10.7.zip",
+                "checksum": "493c7005f6dba320c8e537fc786450cf",
+                "timestamp": "2026-07-25T19:35:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "c6c0526b-5d62-4cee-9143-833bd43a4e78",
+        "name": "Ronin",
+        "description": "An Anime toolkit for Jellyfin: filler/canon tagging and season re-organisation. Fork of ahza-code/jellyfin-plugin-ronin with multi-ABI builds and retry fixes.",
+        "overview": "An Anime toolkit for Jellyfin",
+        "owner": "mhollier117",
+        "category": "Anime",
+        "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-ronin/master/Images/logo.jpg",
+        "versions": [
+            {
+                "version": "1.0.5.1",
+                "changelog": "Fix: scheduled tasks now read the plugin configuration live at run time. Settings saved after server startup (library allow-list, rate limit, rename options) were silently ignored until the next restart.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.1/ronin_1.0.5.1_jf12.0.zip",
+                "checksum": "F8231E154E37280D70225328D937FF41",
+                "timestamp": "2026-08-02 16:20:00"
+            },
+            {
+                "version": "1.0.5.1",
+                "changelog": "Fix: scheduled tasks now read the plugin configuration live at run time. Settings saved after server startup (library allow-list, rate limit, rename options) were silently ignored until the next restart.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.1/ronin_1.0.5.1_jf10.11.zip",
+                "checksum": "0D8391ADE6B946917E5920C94BDE78CF",
+                "timestamp": "2026-08-02 16:20:00"
+            },
+            {
+                "version": "1.0.5.1",
+                "changelog": "Fix: scheduled tasks now read the plugin configuration live at run time. Settings saved after server startup (library allow-list, rate limit, rename options) were silently ignored until the next restart.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.1/ronin_1.0.5.1_jf10.10.7.zip",
+                "checksum": "1D968A33F32278070A706BC1C192FBC1",
+                "timestamp": "2026-08-02 16:20:00"
+            },
+            {
+                "version": "1.0.5.0",
+                "changelog": "Self-healing merge: episodes re-homed via the server's own recipe (ParentIndexNumber + SeasonId + SeasonName; ParentId never touched), stale half-merges repaired on re-run. Ronin no longer deletes seasons or any other items; empty virtual seasons are cleaned up by the server's guarded refresh. New library allow-list. BREAKING: after upgrading the list is empty and all tasks do nothing until you tick your anime library once in the plugin settings.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.0/ronin_1.0.5.0_jf12.0.zip",
+                "checksum": "89a8d3778e0cd97b220d1af8dfc722d1",
+                "timestamp": "2026-08-02T15:31:00Z"
+            },
+            {
+                "version": "1.0.5.0",
+                "changelog": "Self-healing merge: episodes re-homed via the server's own recipe (ParentIndexNumber + SeasonId + SeasonName; ParentId never touched), stale half-merges repaired on re-run. Ronin no longer deletes seasons or any other items; empty virtual seasons are cleaned up by the server's guarded refresh. New library allow-list. BREAKING: after upgrading the list is empty and all tasks do nothing until you tick your anime library once in the plugin settings.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.0/ronin_1.0.5.0_jf10.11.zip",
+                "checksum": "0bd75a83dd977542c695cc5e3ccc6b88",
+                "timestamp": "2026-08-02T15:31:00Z"
+            },
+            {
+                "version": "1.0.5.0",
+                "changelog": "Self-healing merge: episodes re-homed via the server's own recipe (ParentIndexNumber + SeasonId + SeasonName; ParentId never touched), stale half-merges repaired on re-run. Ronin no longer deletes seasons or any other items; empty virtual seasons are cleaned up by the server's guarded refresh. New library allow-list. BREAKING: after upgrading the list is empty and all tasks do nothing until you tick your anime library once in the plugin settings.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.5.0/ronin_1.0.5.0_jf10.10.7.zip",
+                "checksum": "3036a036dd8c8977711c1fe869bf630b",
+                "timestamp": "2026-08-02T15:31:00Z"
+            },
+            {
+                "version": "1.0.4.0",
+                "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.4.0/ronin_1.0.4.0_jf12.0.zip",
+                "checksum": "ea894b6f85c18d9a34eb49809e24e6bb",
+                "timestamp": "2026-08-01T21:00:00Z"
+            },
+            {
+                "version": "1.0.4.0",
+                "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.4.0/ronin_1.0.4.0_jf10.11.zip",
+                "checksum": "9741363b1bf78fcba0765b7c6edcc0bd",
+                "timestamp": "2026-08-01T21:00:00Z"
+            },
+            {
+                "version": "1.0.4.0",
+                "changelog": "DATA LOSS FIX: never delete a season that still contains episodes. Prior versions deleted every season above 1 unconditionally after a merge, and Jellyfin's cascade delete removed the attached episodes from the library.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.4.0/ronin_1.0.4.0_jf10.10.7.zip",
+                "checksum": "b86479e9abbe4126c1af1ee658464166",
+                "timestamp": "2026-08-01T21:00:00Z"
+            },
+            {
+                "version": "1.0.3.0",
+                "changelog": "Ships HtmlAgilityPack (omitted in 1.0.2.0). Retry transient TVDB/AniDB failures and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.3.0/ronin_1.0.3.0_jf12.0.zip",
+                "checksum": "4464cf5001619cfab24c292b056738d6",
+                "timestamp": "2026-08-01T19:15:00Z"
+            },
+            {
+                "version": "1.0.3.0",
+                "changelog": "Ships HtmlAgilityPack (omitted in 1.0.2.0). Retry transient TVDB/AniDB failures and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.3.0/ronin_1.0.3.0_jf10.11.zip",
+                "checksum": "1f3b9262243120b813eb05c6a961c3e6",
+                "timestamp": "2026-08-01T19:15:00Z"
+            },
+            {
+                "version": "1.0.3.0",
+                "changelog": "Ships HtmlAgilityPack (omitted in 1.0.2.0). Retry transient TVDB/AniDB failures and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.3.0/ronin_1.0.3.0_jf10.10.7.zip",
+                "checksum": "27503a6c6ef7ea453f649b8585dd8ee9",
+                "timestamp": "2026-08-01T19:15:00Z"
+            },
+            {
+                "version": "1.0.2.0",
+                "changelog": "Retry transient TVDB/AniDB scrape failures (3 attempts, exponential backoff) and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout. Multi-ABI builds.",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.2.0/ronin_1.0.2.0_jf12.0.zip",
+                "checksum": "bb8c0288f7c834ce009ff21da92de7a4",
+                "timestamp": "2026-08-01T19:00:00Z"
+            },
+            {
+                "version": "1.0.2.0",
+                "changelog": "Retry transient TVDB/AniDB scrape failures (3 attempts, exponential backoff) and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout. Multi-ABI builds.",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.2.0/ronin_1.0.2.0_jf10.11.zip",
+                "checksum": "39790ac8dcf2bc80aa01a67ee0093b55",
+                "timestamp": "2026-08-01T19:00:00Z"
+            },
+            {
+                "version": "1.0.2.0",
+                "changelog": "Retry transient TVDB/AniDB scrape failures (3 attempts, exponential backoff) and isolate per-episode errors, fixing merge runs that self-cancelled at the 100s HTTP timeout. Multi-ABI builds.",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.2.0/ronin_1.0.2.0_jf10.10.7.zip",
+                "checksum": "589c80359e9d7453f2cdbe54f1fc8ea3",
+                "timestamp": "2026-08-01T19:00:00Z"
+            }
+        ]
+    }
 ]
