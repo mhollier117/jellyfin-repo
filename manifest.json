@@ -117,6 +117,30 @@
   "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
   "versions": [
    {
+    "version": "1.3.5.2",
+    "changelog": "Specials audit: versioned cache envelopes force clean refetches, canon/filler filename prefixes no longer defeat movie title matching, synthesized specials cannot be claimed by regular numbering, TVDB specials sections are now scraped, ambiguous same-day airdates fall back to title matching, undated specials are noted.",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.5.2/download-time_1.3.5.2_jf12.0.zip",
+    "checksum": "183e06fcc3bd402937ab995ac9bd38d4",
+    "timestamp": "2026-08-03T15:50:00Z"
+   },
+   {
+    "version": "1.3.5.2",
+    "changelog": "Specials audit: versioned cache envelopes force clean refetches, canon/filler filename prefixes no longer defeat movie title matching, synthesized specials cannot be claimed by regular numbering, TVDB specials sections are now scraped, ambiguous same-day airdates fall back to title matching, undated specials are noted.",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.5.2/download-time_1.3.5.2_jf10.11.zip",
+    "checksum": "25fd9554e8a993837ca333f7938dd10d",
+    "timestamp": "2026-08-03T15:50:00Z"
+   },
+   {
+    "version": "1.3.5.2",
+    "changelog": "Specials audit: versioned cache envelopes force clean refetches, canon/filler filename prefixes no longer defeat movie title matching, synthesized specials cannot be claimed by regular numbering, TVDB specials sections are now scraped, ambiguous same-day airdates fall back to title matching, undated specials are noted.",
+    "targetAbi": "10.10.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.5.2/download-time_1.3.5.2_jf10.10.7.zip",
+    "checksum": "4cd109f6c408e80a47d47eceb0fddc30",
+    "timestamp": "2026-08-03T15:50:00Z"
+   },
+   {
     "version": "1.3.5.1",
     "changelog": "OVA, TV Special and Web chain entries no longer consume absolute-numbering slots in the AniDB union - owned episodes after such entries were reported missing in libraries without per-episode ids.",
     "targetAbi": "12.0.0.0",
