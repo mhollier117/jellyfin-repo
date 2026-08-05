@@ -117,6 +117,30 @@
   "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-downloadtime/master/logo.png",
   "versions": [
    {
+    "version": "1.3.7.0",
+    "changelog": "Sharper specials/extras split: series on runtime-less sources (TVDB scrape) borrow per-episode runtimes from TMDB season 0 with conservative unique date/title matching, compilation and promo titles (Best of, Uncovered, screening greetings, video commentary) are recognised as extras, and an obvious extras title now demotes an anime special. Pattern list accepts regular expressions with an re: prefix.",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.7.0/download-time_1.3.7.0_jf12.0.zip",
+    "checksum": "a93c7f1b29c5127f8ee32499b6a6ec6b",
+    "timestamp": "2026-08-05T22:05:00Z"
+   },
+   {
+    "version": "1.3.7.0",
+    "changelog": "Sharper specials/extras split: series on runtime-less sources (TVDB scrape) borrow per-episode runtimes from TMDB season 0 with conservative unique date/title matching, compilation and promo titles (Best of, Uncovered, screening greetings, video commentary) are recognised as extras, and an obvious extras title now demotes an anime special. Pattern list accepts regular expressions with an re: prefix.",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.7.0/download-time_1.3.7.0_jf10.11.zip",
+    "checksum": "f2abb49177fdeed857c8c56fa3054ba9",
+    "timestamp": "2026-08-05T22:05:00Z"
+   },
+   {
+    "version": "1.3.7.0",
+    "changelog": "Sharper specials/extras split: series on runtime-less sources (TVDB scrape) borrow per-episode runtimes from TMDB season 0 with conservative unique date/title matching, compilation and promo titles (Best of, Uncovered, screening greetings, video commentary) are recognised as extras, and an obvious extras title now demotes an anime special. Pattern list accepts regular expressions with an re: prefix.",
+    "targetAbi": "10.10.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-downloadtime/releases/download/v1.3.7.0/download-time_1.3.7.0_jf10.10.7.zip",
+    "checksum": "55a80078fc8fac6ca9067daa372e35a5",
+    "timestamp": "2026-08-05T22:05:00Z"
+   },
+   {
     "version": "1.3.6.0",
     "changelog": "Separates genuine specials from extras (behind-the-scenes, panels, promos, recaps, webisodes). Extras are hidden from the report by default and counted in their own bucket when enabled. Uses AniDB episode types and TMDB runtimes, with a user-editable pattern list and runtime threshold in settings.",
     "targetAbi": "12.0.0.0",
