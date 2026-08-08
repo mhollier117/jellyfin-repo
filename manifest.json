@@ -9,6 +9,30 @@
   "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
   "versions": [
    {
+    "version": "1.1.1.0",
+    "changelog": "Fixes a websocket keepalive feedback loop. Jellyfin answers an inbound KeepAlive with BOTH a ForceKeepAlive and a KeepAlive, and the remote replied to both, so every answer was answered again and the socket ran at round-trip speed - 15 to 22 messages per second for each open remote, 336,957 keepalives in a single server log, enough to rotate it at 100MB. The remote now behaves like the official Jellyfin client: it answers ForceKeepAlive only, then holds the socket open on a timer at half the timeout the server advertises, and drops that timer on close, reconnect or sign-out. Measured on the live server: 15.70 inbound messages/second before, 0.10 after. The 10-second zombie-socket watchdog is unchanged. No UI changes.",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.1.1.0/jfremote_1.1.1.0_jf12.zip",
+    "checksum": "c3498e5b7f408d8a90d6d64f1ee6e78c",
+    "timestamp": "2026-08-08T17:33:45Z"
+   },
+   {
+    "version": "1.1.1.0",
+    "changelog": "Fixes a websocket keepalive feedback loop. Jellyfin answers an inbound KeepAlive with BOTH a ForceKeepAlive and a KeepAlive, and the remote replied to both, so every answer was answered again and the socket ran at round-trip speed - 15 to 22 messages per second for each open remote, 336,957 keepalives in a single server log, enough to rotate it at 100MB. The remote now behaves like the official Jellyfin client: it answers ForceKeepAlive only, then holds the socket open on a timer at half the timeout the server advertises, and drops that timer on close, reconnect or sign-out. Measured on the live server: 15.70 inbound messages/second before, 0.10 after. The 10-second zombie-socket watchdog is unchanged. No UI changes.",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.1.1.0/jfremote_1.1.1.0_jf1011.zip",
+    "checksum": "e4362ef8c057524ba9471a930a77d17c",
+    "timestamp": "2026-08-08T17:33:45Z"
+   },
+   {
+    "version": "1.1.1.0",
+    "changelog": "Fixes a websocket keepalive feedback loop. Jellyfin answers an inbound KeepAlive with BOTH a ForceKeepAlive and a KeepAlive, and the remote replied to both, so every answer was answered again and the socket ran at round-trip speed - 15 to 22 messages per second for each open remote, 336,957 keepalives in a single server log, enough to rotate it at 100MB. The remote now behaves like the official Jellyfin client: it answers ForceKeepAlive only, then holds the socket open on a timer at half the timeout the server advertises, and drops that timer on close, reconnect or sign-out. Measured on the live server: 15.70 inbound messages/second before, 0.10 after. The 10-second zombie-socket watchdog is unchanged. No UI changes.",
+    "targetAbi": "10.10.7.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.1.1.0/jfremote_1.1.1.0_jf1010.zip",
+    "checksum": "a89dde45d860ecc1a7ef12472f93f3e2",
+    "timestamp": "2026-08-08T17:33:45Z"
+   },
+   {
     "version": "1.1.0.0",
     "changelog": "Desktop layout at 1000px and up (session + transcode rail, poster art, vertical episode list) and full keyboard control - press ? for the list. Adds a JF Remote button to the web client header. Fixes stale play/pause glyph flip-back, the seek bar snapping back after a single tap, arrow keys on the seek bar and session rail changing the volume, focus loss when picking a session, Shift+Tab escaping the message dialog, IME Escape discarding a message, held Home/End scrolling the page, and the volume keys claiming success with no session. Mobile layout unchanged.",
     "targetAbi": "12.0.0.0",
