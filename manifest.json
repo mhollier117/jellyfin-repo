@@ -2,12 +2,36 @@
  {
   "guid": "e3d9b3a1-52c7-4b6e-9d1a-6f4a8c2b7e91",
   "name": "JF Remote",
-  "description": "Control any Jellyfin session from your phone: playstate, trickplay seeking, segment skip, tracks/quality/speed, episode browsing, watch-along.",
-  "overview": "Standalone mobile remote UI at /JfRemote/",
+  "description": "Control any Jellyfin session from your phone or desktop: playstate, trickplay seeking, segment skip, tracks and quality, episode browsing, watch-along, full keyboard control.",
+  "overview": "Standalone remote UI at /JfRemote/",
   "owner": "mhollier117",
   "category": "General",
   "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-jfremote/main/logo.png",
   "versions": [
+   {
+    "version": "1.1.0.0",
+    "changelog": "Desktop layout at 1000px and up (session + transcode rail, poster art, vertical episode list) and full keyboard control - press ? for the list. Adds a JF Remote button to the web client header. Fixes stale play/pause glyph flip-back, the seek bar snapping back after a single tap, arrow keys on the seek bar and session rail changing the volume, focus loss when picking a session, Shift+Tab escaping the message dialog, IME Escape discarding a message, held Home/End scrolling the page, and the volume keys claiming success with no session. Mobile layout unchanged.",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.1.0.0/jfremote_1.1.0.0_jf12.zip",
+    "checksum": "44a1fee09530949c7cae03812cd7b6ee",
+    "timestamp": "2026-08-08T01:33:48Z"
+   },
+   {
+    "version": "1.1.0.0",
+    "changelog": "Desktop layout at 1000px and up (session + transcode rail, poster art, vertical episode list) and full keyboard control - press ? for the list. Adds a JF Remote button to the web client header. Fixes stale play/pause glyph flip-back, the seek bar snapping back after a single tap, arrow keys on the seek bar and session rail changing the volume, focus loss when picking a session, Shift+Tab escaping the message dialog, IME Escape discarding a message, held Home/End scrolling the page, and the volume keys claiming success with no session. Mobile layout unchanged.",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.1.0.0/jfremote_1.1.0.0_jf1011.zip",
+    "checksum": "5467fc8bd4c04dbbed3196bde7de2517",
+    "timestamp": "2026-08-08T01:33:48Z"
+   },
+   {
+    "version": "1.1.0.0",
+    "changelog": "Desktop layout at 1000px and up (session + transcode rail, poster art, vertical episode list) and full keyboard control - press ? for the list. Adds a JF Remote button to the web client header. Fixes stale play/pause glyph flip-back, the seek bar snapping back after a single tap, arrow keys on the seek bar and session rail changing the volume, focus loss when picking a session, Shift+Tab escaping the message dialog, IME Escape discarding a message, held Home/End scrolling the page, and the volume keys claiming success with no session. Mobile layout unchanged.",
+    "targetAbi": "10.10.7.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-jfremote/releases/download/v1.1.0.0/jfremote_1.1.0.0_jf1010.zip",
+    "checksum": "e836a8a003bd64047c69465a5cad890a",
+    "timestamp": "2026-08-08T01:33:48Z"
+   },
    {
     "version": "1.0.9.0",
     "changelog": "Capability medic heals restart-surviving web tabs that stop receiving commands. Watch-along sync engine rebuilt; dropped commands auto-retried; update check on app resume; session picker and socket hardening.",
