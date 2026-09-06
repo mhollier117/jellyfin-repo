@@ -656,6 +656,30 @@
   "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-ronin/master/Images/logo.jpg",
   "versions": [
    {
+    "version": "1.0.9.3",
+    "changelog": "Resolve absolute episode numbers from the TheTVDB API when a key is configured, ahead of the HTML scrapes and the local-order fallback. The API returns the complete aired order including episodes you do not own, which is the only source that stays correct when a season has gaps.",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.9.3/ronin_1.0.9.3_jf12.0.zip",
+    "checksum": "4E5D941AFE487A487B7EA7550D79A2EB",
+    "timestamp": "2026-09-06 02:20:00"
+   },
+   {
+    "version": "1.0.9.3",
+    "changelog": "Resolve absolute episode numbers from the TheTVDB API when a key is configured, ahead of the HTML scrapes and the local-order fallback. The API returns the complete aired order including episodes you do not own, which is the only source that stays correct when a season has gaps.",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.9.3/ronin_1.0.9.3_jf10.11.zip",
+    "checksum": "6ADD5D16D29B960F52EFEB0B13ED04A4",
+    "timestamp": "2026-09-06 02:20:00"
+   },
+   {
+    "version": "1.0.9.3",
+    "changelog": "Resolve absolute episode numbers from the TheTVDB API when a key is configured, ahead of the HTML scrapes and the local-order fallback. The API returns the complete aired order including episodes you do not own, which is the only source that stays correct when a season has gaps.",
+    "targetAbi": "10.10.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.9.3/ronin_1.0.9.3_jf10.10.7.zip",
+    "checksum": "F19BF6384C66F48754AC4629BE7417E7",
+    "timestamp": "2026-09-06 02:20:00"
+   },
+   {
     "version": "1.0.9.2",
     "changelog": "Merge layout rebuilt from file paths so the season merge cannot self-block; the merge task now reports Failed when a series resolves nothing instead of a silent Completed; seasons whose only remaining content is virtual placeholders are hidden after a merge.",
     "targetAbi": "12.0.0.0",
