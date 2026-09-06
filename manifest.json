@@ -656,6 +656,30 @@
   "imageUrl": "https://raw.githubusercontent.com/mhollier117/jellyfin-plugin-ronin/master/Images/logo.jpg",
   "versions": [
    {
+    "version": "1.0.9.4",
+    "changelog": "Correct the absolute numbers of episodes already merged into season 1. Numbers assigned before an authoritative source was available persisted forever because a merged episode was never re-examined; a library audit found 15 such episodes, one of which was blocking another from merging at all.",
+    "targetAbi": "12.0.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.9.4/ronin_1.0.9.4_jf12.0.zip",
+    "checksum": "0871923310AAEBCAC492BA7A95244442",
+    "timestamp": "2026-09-06 03:05:00"
+   },
+   {
+    "version": "1.0.9.4",
+    "changelog": "Correct the absolute numbers of episodes already merged into season 1. Numbers assigned before an authoritative source was available persisted forever because a merged episode was never re-examined; a library audit found 15 such episodes, one of which was blocking another from merging at all.",
+    "targetAbi": "10.11.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.9.4/ronin_1.0.9.4_jf10.11.zip",
+    "checksum": "7A62CCA5E3F4EF7CF39C8D07A4A9C7F4",
+    "timestamp": "2026-09-06 03:05:00"
+   },
+   {
+    "version": "1.0.9.4",
+    "changelog": "Correct the absolute numbers of episodes already merged into season 1. Numbers assigned before an authoritative source was available persisted forever because a merged episode was never re-examined; a library audit found 15 such episodes, one of which was blocking another from merging at all.",
+    "targetAbi": "10.10.0.0",
+    "sourceUrl": "https://github.com/mhollier117/jellyfin-plugin-ronin/releases/download/v1.0.9.4/ronin_1.0.9.4_jf10.10.7.zip",
+    "checksum": "B5C5B231ABC1C74251DAEB0054F41596",
+    "timestamp": "2026-09-06 03:05:00"
+   },
+   {
     "version": "1.0.9.3",
     "changelog": "Resolve absolute episode numbers from the TheTVDB API when a key is configured, ahead of the HTML scrapes and the local-order fallback. The API returns the complete aired order including episodes you do not own, which is the only source that stays correct when a season has gaps.",
     "targetAbi": "12.0.0.0",
